@@ -1,0 +1,226 @@
+/*
+----------------------------------------
+Tantek Celik's Whitepsace Reset
+     Author:  	Tantek Celik, Shane Riley
+    Version:  	(CC) 2010 Some Rights Reserved - http://creativecommons.org/licenses/by/2.0
+Description:	Resets default styling of common browsers to a common base
+----------------------------------------
+*/
+
+ul,ol { list-style: none; }
+h1,h2,h3,h4,h5,h6,pre,code { font-size: 1em; }
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input,dl,dt,dd, figure, figcaption {
+  margin: 0;
+  padding: 0; }
+a img,:link img,:visited img, fieldset { border: none; }
+a {
+  text-decoration: none;
+  color: inherit;
+}
+address { font-style: normal; }
+header, section, article, nav, footer, hgroup, details, summary, figure, main { display: block; }
+mark {
+  color: inherit;
+  background: transparent; }
+abbr { border: none; }
+summary::-webkit-details-marker { display: none; }
+
+body {
+  font: 16px 'Helvetica', Helvetica, sans-serif;
+  color: #555555;
+}
+
+nav li {
+  vertical-align: middle;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+main {
+  font-size: 18px;
+  padding: 50px 0;
+  box-sizing: border-box;
+  background: #cecece;
+}
+
+/*#main_nav {
+  background: #000;
+}
+
+#main_nav ul li {
+  display: inline-block;
+}
+
+#main_nav ul li a {
+  display: inline-block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#main_nav ul li a:hover {
+  background: #fff;
+  color: #000;
+}*/
+
+#summary {
+  width: 1000px;
+  padding: 75px 150px;
+  margin: 0 auto;
+  text-align: center;
+  background: rgba(255, 255, 255, .7);
+  border-radius: 10px;
+}
+
+#about h1 {
+  font-size: 100px;
+}
+
+#about h3 {
+  font-size: 32px;
+  padding-bottom: 30px;
+}
+
+#about p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#about ul {
+  padding-bottom: 30px;
+}
+
+#profile_buttons li {
+  display: inline-block;
+}
+
+#projects {
+  width: 1000px;
+  padding: 50px 150px;
+  margin: 25px auto;
+  background: rgba(255, 255, 255, .7);
+  border-radius: 10px;
+}
+
+#about {
+  padding-bottom: 25px;
+  border-bottom: 2px solid #000;
+}
+
+#skills {
+  margin-top: 50px;
+}
+
+#skills h2 {
+  font-size: 44px;
+  margin-bottom: 25px;
+}
+
+#skills h3 {
+  font-size: 24px;
+}
+
+table {
+  margin: 0 auto 25px auto;
+  /*text-align: left;*/
+}
+
+table tr {
+  display: inline-block;
+  border-bottom: 1px solid #a1a1a1;
+}
+
+table td, th {
+  width: 300px;
+}
+
+#projects h1 {
+  font-size: 50px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+#projects ul li {
+  display: inline-block;
+  vertical-align: top;
+  width: 46.5%;
+  margin: 15px 15px;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 5px;
+  /*background: #a1a1a1;*/
+}
+
+#featured {
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+#featured:hover {
+  background: #c1c1c1;
+}
+
+#featured a.featured_link {
+  padding: 25px;
+  display: inline-block;
+}
+
+#featured h1 {
+  font-size: 40px;
+}
+
+#projects h4 {
+  font-size: 35px;
+  margin-top: 15px;
+  text-decoration: underline;
+}
+
+#projects li a {
+  display: inline-block;
+  text-decoration: none;
+  height: 350px;
+  padding: 10px;
+  color: inherit;
+}
+
+#projects p {
+  margin-top: 10px;
+}
+
+#projects .container {
+  width: 400px;
+  height: 150px;
+  margin: 0 auto;
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+  border: 1px solid #000;
+}
+
+#projects li:hover {
+  background: #c1c1c1;
+}
+
+#trello {
+  background-image: url('images/trello.png');
+}
+
+#yelp {
+  background-image: url('images/yelp.png');
+}
+
+#myflix {
+  background-image: url('images/myflix.png');
+}
+
+#sushi {
+  background-image: url('images/sushi.png');
+}
+
+#workerholic {
+  background-image: url('images/workerholic.png');
+  background-position: 70%;
+}
