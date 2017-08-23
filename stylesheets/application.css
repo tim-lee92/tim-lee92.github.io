@@ -137,23 +137,6 @@ table td, th {
   width: 300px;
 }
 
-#projects h1 {
-  font-size: 50px;
-  margin-bottom: 25px;
-  text-align: center;
-}
-
-#projects ul li {
-  display: inline-block;
-  vertical-align: top;
-  width: 46.5%;
-  margin: 15px 15px;
-  text-align: center;
-  box-sizing: border-box;
-  border-radius: 5px;
-  /*background: #a1a1a1;*/
-}
-
 #featured {
   text-align: center;
   border: 1px solid #000;
@@ -174,15 +157,31 @@ table td, th {
 }
 
 #projects h4 {
-  font-size: 35px;
+  font-size: 18px;
   margin-top: 15px;
   text-decoration: underline;
+}
+
+#projects h1 {
+  font-size: 50px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+#projects ul li {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 12px;
+  width: 24%;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 5px;
 }
 
 #projects li a {
   display: inline-block;
   text-decoration: none;
-  height: 350px;
+  height: 250px;
   padding: 10px;
   color: inherit;
 }
@@ -192,8 +191,8 @@ table td, th {
 }
 
 #projects .container {
-  width: 400px;
-  height: 150px;
+  width: 200px;
+  height: 75px;
   margin: 0 auto;
   background-size: cover;
   /*background-repeat: no-repeat;*/
