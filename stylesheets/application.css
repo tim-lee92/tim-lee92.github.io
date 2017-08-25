@@ -76,12 +76,17 @@ main {
 }
 
 #about h1 {
-  font-size: 100px;
+  font-size: 64px;
 }
 
 #about h3 {
   font-size: 32px;
   padding-bottom: 30px;
+}
+
+#about img {
+  border-radius: 200px;
+  border: 10px solid #fff;
 }
 
 #about p {
