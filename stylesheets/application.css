@@ -46,6 +46,11 @@ main {
   background: #cecece;
 }
 
+.project_link {
+  font-weight: bold;
+  color: #4691bc;
+}
+
 /*#main_nav {
   background: #000;
 }
