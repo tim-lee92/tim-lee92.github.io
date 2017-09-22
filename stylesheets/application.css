@@ -124,6 +124,10 @@ main {
   margin-top: 50px;
 }
 
+#skills ul {
+  margin-bottom: 25px;
+}
+
 #skills h2 {
   font-size: 44px;
   margin-bottom: 25px;
